@@ -1,19 +1,19 @@
 {
-    "name": "opencode-antigravity-auth",
-    "version": "1.7.0-beta.0",
-    "description": "Google Antigravity IDE OAuth auth plugin for Opencode - access Gemini 3 Pro and Claude 4.6 using Google credentials",
+    "name": "@s3rezhkaa/opencode-antigravity-auth",
+    "version": "1.7.0-dignity.0",
+    "description": "Dignity fork: Google Antigravity OAuth plugin for Opencode with Gemini 3.5 models",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "type": "module",
     "license": "MIT",
-    "author": "noefabris",
+    "author": "s3rezhkaa",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NoeFabris/opencode-antigravity-auth.git"
+        "url": "git+https://github.com/s3rezhkaa/opencode-antigravity-auth.git"
     },
-    "homepage": "https://github.com/NoeFabris/opencode-antigravity-auth#readme",
+    "homepage": "https://github.com/s3rezhkaa/opencode-antigravity-auth#readme",
     "bugs": {
-        "url": "https://github.com/NoeFabris/opencode-antigravity-auth/issues"
+        "url": "https://github.com/s3rezhkaa/opencode-antigravity-auth/issues"
     },
     "keywords": [
         "opencode",

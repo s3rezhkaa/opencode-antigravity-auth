@@ -18,7 +18,10 @@ describe("OPENCODE_MODEL_DEFINITIONS", () => {
       "antigravity-claude-sonnet-4-6",
       "antigravity-gemini-3.1-pro-high",
       "antigravity-gemini-3.1-pro-low",
+      "antigravity-gemini-3.5-flash-high",
       "antigravity-gemini-3.5-flash-low",
+      "antigravity-gemini-3.5-pro-high",
+      "antigravity-gemini-3.5-pro-low",
       "antigravity-gpt-oss-120b-medium",
     ]);
   });

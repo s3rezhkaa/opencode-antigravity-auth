@@ -118,6 +118,9 @@ opencode run "Hello" --model=google/antigravity-claude-opus-4-6-thinking
 | `antigravity-claude-opus-4-6-thinking` | Claude Opus 4.6 (Thinking) |
 | `antigravity-gpt-oss-120b-medium` | GPT-OSS 120B (Medium) |
 | `antigravity-gemini-3.5-flash-low` | Gemini 3.5 Flash (Low) |
+| `antigravity-gemini-3.5-flash-high` | Gemini 3.5 Flash (High) |
+| `antigravity-gemini-3.5-pro-low` | Gemini 3.5 Pro (Low) |
+| `antigravity-gemini-3.5-pro-high` | Gemini 3.5 Pro (High) |
 
 > **Gemini CLI sunset:** Gemini CLI quota models are no longer included in the default model list. Google announced Gemini CLI access for individual/free Google AI Pro/Ultra and Gemini Code Assist users stops on **2026-06-18**. Legacy Gemini CLI routing remains in the plugin for backward compatibility only.
 
@@ -230,6 +233,57 @@ Add this to your `~/.config/opencode/opencode.json`:
         },
         "antigravity-gemini-3.5-flash-low": {
           "name": "Gemini 3.5 Flash Low (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-gemini-3.5-flash-high": {
+          "name": "Gemini 3.5 Flash High (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-gemini-3.5-pro-low": {
+          "name": "Gemini 3.5 Pro Low (Antigravity)",
+          "limit": {
+            "context": 1048576,
+            "output": 65536
+          },
+          "modalities": {
+            "input": [
+              "text",
+              "image",
+              "pdf"
+            ],
+            "output": [
+              "text"
+            ]
+          }
+        },
+        "antigravity-gemini-3.5-pro-high": {
+          "name": "Gemini 3.5 Pro High (Antigravity)",
           "limit": {
             "context": 1048576,
             "output": 65536
