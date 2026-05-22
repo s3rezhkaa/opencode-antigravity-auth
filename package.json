@@ -1,5 +1,5 @@
 {
-    "name": "@s3rezhkaa/opencode-antigravity-auth",
+    "name": "antigravity-auth-dignity",
     "version": "1.7.0",
     "description": "Dignity fork: Google Antigravity OAuth plugin for Opencode with Gemini 3.5 models",
     "main": "./dist/index.js",
